@@ -1,0 +1,15 @@
+org_name: nullstone
+name: aws-bedrock-access
+friendly_name: Bedrock Access
+description: Grants access to use AWS Bedrock APIs
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: bedrock
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
