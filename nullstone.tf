@@ -3,6 +3,9 @@ terraform {
     ns = {
       source = "nullstone-io/ns"
     }
+    aws = {
+      source  = "hashicorp/aws"
+    }
   }
 }
 
