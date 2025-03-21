@@ -6,7 +6,7 @@ resource "aws_iam_policy" "bedrock" {
 
 data "aws_iam_policy_document" "bedrock" {
   statement {
-    sid       = "enable-bedrock-usage"
+    sid       = "EnableBedrockUsage"
     effect    = "Allow"
     resources = ["*"]
 
